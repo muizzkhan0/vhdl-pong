@@ -8,14 +8,14 @@ This project implements a simple video game, applying concepts of video-output s
     - Green background
     - White boundaries surrounding the playing area
 3. Dynamic Elements:
-    Yellow ball that moves around the playing area
-    The ball collides with boundaries and paddles
-    Two paddles that can move up or down, controlled by the board’s switches
-    One paddle is blue, the other paddle is pink
+    - Yellow ball that moves around the playing area
+    - The ball collides with boundaries and paddles
+    - Two paddles that can move up or down, controlled by the board’s switches
+        - One paddle is blue, the other paddle is pink
 4. Behavior
-    When the ball collides with an object, the trajectory of the ball should change 180 degrees of where it was hit
-        I.e. if it hits the bottom boundary, it should start moving up
-    When the ball enters a goal it should turn red, disappear then reappear as yellow in the middle of the playing field
+    - When the ball collides with an object, the trajectory of the ball should change 180 degrees of where it was hit
+        - I.e. if it hits the bottom boundary, it should start moving up
+    - When the ball enters a goal it should turn red, disappear then reappear as yellow in the middle of the playing field
 
 ![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/game%20specification.png?raw=true)
 
