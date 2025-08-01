@@ -4,15 +4,15 @@
 This project implements a simple video game, applying concepts of video-output subsystems and using the Video Graphic Adaptor (VGA) standard. The game created is similar to the classic arcade game pong. The focus is more so on interfacing an FPGA to an external real-time I/O device, that being the VGA monitor, than creating a game. 
 
 # Game Specifications
-1. Static Video Frame: 
-    Green background
-    White boundaries surrounding the playing area
-2. Dynamic Elements:
+1. Static Video Frame:
+    - Green background
+    - White boundaries surrounding the playing area
+3. Dynamic Elements:
     Yellow ball that moves around the playing area
     The ball collides with boundaries and paddles
     Two paddles that can move up or down, controlled by the board’s switches
     One paddle is blue, the other paddle is pink
-3. Behavior
+4. Behavior
     When the ball collides with an object, the trajectory of the ball should change 180 degrees of where it was hit
         I.e. if it hits the bottom boundary, it should start moving up
     When the ball enters a goal it should turn red, disappear then reappear as yellow in the middle of the playing field
@@ -32,14 +32,8 @@ Synchronization between the monitor’s hardware and the software is achieved us
 Table I. VGA Horizontal Parameters
 
 | Parameter | Clock Cycles |
-| --- | --- |
 | Complete Line | 800 |
-| --- | --- |
 | Front Porch | 16 |
-| --- | --- |
 | Sync Pulse| 96 |
-| --- | --- |
 | Back Porch | 48 |
-| --- | --- |
 | Active Image Area | 640 |
-| --- | --- |
