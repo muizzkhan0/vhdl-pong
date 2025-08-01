@@ -3,7 +3,7 @@
 # Introduction
 This project implements a simple video game, applying concepts of video-output subsystems and using the Video Graphic Adaptor (VGA) standard. The game created is similar to the classic arcade game pong. The focus is more so on interfacing an FPGA to an external real-time I/O device, that being the VGA monitor, than creating a game.
 ## Demo
-[![Watch the video](https://img.youtube.com/vi/K-_hVV_IY0s?si=ABktHYcFBrRJt9s>/hqdefault.jpg)](https://www.youtube.com/embed/<K-_hVV_IY0s?si=ABktHYcFBrRJt9s>)
+[![Watch the video](https://img.youtube.com/vi/K-_hVV_IY0s?si=ABktHYcFBrRJt9s>/hqdefault.jpg)](https://www.youtube.com/embed/K-_hVV_IY0s?si=ABktHYcFBrRJt9s)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K-_hVV_IY0s?si=ABktHYcFBrRJt9s-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Game Specifications
