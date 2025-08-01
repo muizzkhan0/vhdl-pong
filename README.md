@@ -32,7 +32,7 @@ Synchronization between the monitor’s hardware and the software is achieved us
 Table I. VGA Horizontal Parameters
 
 | Parameter | Clock Cycles |
----
+| --- | --- |
 | Complete Line | 800 |
 | Front Porch | 16 |
 | Sync Pulse| 96 |
