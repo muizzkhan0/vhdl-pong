@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/student1/mjliu/coe758/coe758_pong/impact.xsl
+OUTFILE=/home/student1/mjliu/coe758/coe758_pong/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/student1/mjliu/coe758/coe758_pong
+LICENSE=iMPACT
+USER_INFO=iMPACT

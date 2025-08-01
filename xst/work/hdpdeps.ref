@@ -1,0 +1,84 @@
+V3 42
+FL /home/student1/mjliu/coe758/coe758_pong/background.vhd 2019/11/26.13:08:25 O.87xd
+EN work/background 1574793907 \
+      FL /home/student1/mjliu/coe758/coe758_pong/background.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      PB work/constants 1574802268
+AR work/background/Behavioral 1574793908 \
+      FL /home/student1/mjliu/coe758/coe758_pong/background.vhd \
+      EN work/background 1574793907
+FL /home/student1/mjliu/coe758/coe758_pong/ball.vhd 2019/11/26.15:58:05 O.87xd
+EN work/ball 1574802277 FL /home/student1/mjliu/coe758/coe758_pong/ball.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      PB work/constants 1574802268
+AR work/ball/Behavioral 1574802278 \
+      FL /home/student1/mjliu/coe758/coe758_pong/ball.vhd EN work/ball 1574802277
+FL /home/student1/mjliu/coe758/coe758_pong/clock_divider_2.vhd 2019/11/26.10:16:37 O.87xd
+EN work/clock_divider_2 1574802269 \
+      FL /home/student1/mjliu/coe758/coe758_pong/clock_divider_2.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      PB work/constants 1574802268
+AR work/clock_divider_2/Behavioral 1574802270 \
+      FL /home/student1/mjliu/coe758/coe758_pong/clock_divider_2.vhd \
+      EN work/clock_divider_2 1574802269
+FL /home/student1/mjliu/coe758/coe758_pong/constants.vhd 2019/11/25.20:57:35 O.87xd
+PH work/constants 1574802267 \
+      FL /home/student1/mjliu/coe758/coe758_pong/constants.vhd \
+      PB ieee/std_logic_1164 1325952872
+PB work/constants 1574802268 \
+      FL /home/student1/mjliu/coe758/coe758_pong/constants.vhd PH work/constants 1574802267
+FL /home/student1/mjliu/coe758/coe758_pong/count_gen.vhd 2019/11/26.12:14:40 O.87xd
+EN work/count_gen 1574802271 \
+      FL /home/student1/mjliu/coe758/coe758_pong/count_gen.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      PB work/constants 1574802268
+AR work/count_gen/Behavioral 1574802272 \
+      FL /home/student1/mjliu/coe758/coe758_pong/count_gen.vhd EN work/count_gen 1574802271
+FL /home/student1/mjliu/coe758/coe758_pong/ipcore_dir/icon.vhd 2019/11/25.23:49:00 O.87xd
+EN work/icon 1574802281 \
+      FL /home/student1/mjliu/coe758/coe758_pong/ipcore_dir/icon.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/icon/icon_a 1574802282 \
+      FL /home/student1/mjliu/coe758/coe758_pong/ipcore_dir/icon.vhd EN work/icon 1574802281
+FL /home/student1/mjliu/coe758/coe758_pong/ipcore_dir/ila.vhd 2019/11/26.09:23:08 O.87xd
+EN work/ila 1574802283 \
+      FL /home/student1/mjliu/coe758/coe758_pong/ipcore_dir/ila.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/ila/ila_a 1574802284 \
+      FL /home/student1/mjliu/coe758/coe758_pong/ipcore_dir/ila.vhd EN work/ila 1574802283
+FL /home/student1/mjliu/coe758/coe758_pong/paddle.vhd 2019/11/26.15:22:54 O.87xd
+EN work/paddle 1574802275 FL /home/student1/mjliu/coe758/coe758_pong/paddle.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      PB work/constants 1574802268
+AR work/paddle/Behavioral 1574802276 \
+      FL /home/student1/mjliu/coe758/coe758_pong/paddle.vhd EN work/paddle 1574802275
+FL /home/student1/mjliu/coe758/coe758_pong/sync_gen.vhd 2019/11/26.13:57:38 O.87xd
+EN work/sync_gen 1574802273 \
+      FL /home/student1/mjliu/coe758/coe758_pong/sync_gen.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      PB work/constants 1574802268
+AR work/sync_gen/Behavioral 1574802274 \
+      FL /home/student1/mjliu/coe758/coe758_pong/sync_gen.vhd EN work/sync_gen 1574802273
+FL /home/student1/mjliu/coe758/coe758_pong/top_level.vhd 2019/11/26.15:58:53 O.87xd
+EN work/top_level 1574802285 \
+      FL /home/student1/mjliu/coe758/coe758_pong/top_level.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      PB work/constants 1574802268
+AR work/top_level/Behavioral 1574802286 \
+      FL /home/student1/mjliu/coe758/coe758_pong/top_level.vhd EN work/top_level 1574802285 \
+      CP clock_divider_2 CP count_gen CP sync_gen CP paddle CP ball CP VGA CP icon \
+      CP ila
+FL /home/student1/mjliu/coe758/coe758_pong/VGA.vhd 2019/11/26.16:04:21 O.87xd
+EN work/VGA 1574802279 FL /home/student1/mjliu/coe758/coe758_pong/VGA.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      PB work/constants 1574802268
+AR work/VGA/Behavioral 1574802280 \
+      FL /home/student1/mjliu/coe758/coe758_pong/VGA.vhd EN work/VGA 1574802279
