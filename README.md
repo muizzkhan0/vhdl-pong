@@ -6,8 +6,8 @@ This project implements a simple video game, applying concepts of video-output s
 [![Watch the video](https://img.youtube.com/vi/K-_hVV_IY0s?si=ABktHYcFBrRJt9s/hqdefault.jpg)](https://www.youtube.com/embed/K-_hVV_IY0s?si=ABktHYcFBrRJt9s)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K-_hVV_IY0s?si=ABktHYcFBrRJt9s-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/<VIDEO_ID>)
+[<img src="https://img.youtube.com/vi/K-_hVV_IY0s?si=ABktHYcFBrRJt9s/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/K-_hVV_IY0s?si=ABktHYcFBrRJt9s)
 
 # Game Specifications
 1. Static Video Frame:
