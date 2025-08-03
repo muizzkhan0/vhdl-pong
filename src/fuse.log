@@ -1,0 +1,22 @@
+Running: /CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/student1/a595khan/Documents/coe758/pong/pong_test_isim_beh.exe -prj /home/student1/a595khan/Documents/coe758/pong/pong_test_beh.prj work.pong_test 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student1/a595khan/Documents/coe758/pong/pong.vhd" into library work
+Parsing VHDL file "/home/student1/a595khan/Documents/coe758/pong/pong_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 120352 KB
+Fuse CPU Usage: 940 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity pong [pong_default]
+Compiling architecture behavior of entity pong_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable /home/student1/a595khan/Documents/coe758/pong/pong_test_isim_beh.exe
+Fuse Memory Usage: 1210468 KB
+Fuse CPU Usage: 1000 ms
+GCC CPU Usage: 780 ms

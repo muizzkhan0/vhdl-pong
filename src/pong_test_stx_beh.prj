@@ -1,0 +1,2 @@
+vhdl isim_temp "pong.vhd"
+vhdl isim_temp "pong_test.vhd"
