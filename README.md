@@ -23,13 +23,13 @@ This project implements a simple video game, applying concepts of video-output s
         - I.e. if it hits the bottom boundary, it should start moving up
     - When the ball enters a goal it should turn red, disappear then reappear as yellow in the middle of the playing field
 
-![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/game%20specification.png?raw=true)
+![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/game%20specification.png)
 
 # Device Description/Design
 ## Symbol Diagram
 The system takes inputs from the clock and four switches. Internally the clock gets divided by half as that is what the VGA operates at. The output RGB controls the color that is displayed on the monitor and the Hsync and Vsync handle synchronization between the software and the monitor’s hardware.
 
-![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/symbol%20diagram.png?raw=true)
+![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/symbol%20diagram.png)
 
 ## VGA Specifications
 The monitor operates by scanning horizontally from left to right, controlling what color is set for each pixel. After completing a row, it starts from the beginning of the next row. The machine’s hardware takes a certain amount of time to move from the end of the last row to the beginning of the next row, and this delay should be accounted for. After the monitor scans all the way to the bottom of the screen, it completes a frame and will take a certain amount of time to return to the top of the screen to start the next frame. This delay must once again be accounted for.  
@@ -59,7 +59,7 @@ The horizontal timings are multiples of the VGA pixel clock which is 25 MHz for 
 The front porch is the delay between the end of the video data of a scanline and the initial edge of the sync pulse. The sync pulse is the length of the synchronization pulse. The back porch is the delay between the final edge of the sync pulse and the first piece of data for the next scanline. 
 
 ## Block Diagrams
-![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/block%20diagram.png?raw=true)
+![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/block%20diagram.png)
 
 - The Clock Divider halves the input clock so that it may be used as the VGA’s pixel clock.  
 - The Ball Position, Blue Paddle Position and Pink Paddle Position are actually four separate lines for x1, x2, y1 and y2 that make up the coordinates for their respective components.
@@ -70,5 +70,5 @@ The front porch is the delay between the end of the video data of a scanline and
 
 # Results
 ## Timing Diagram
-![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/timing%20diagram.png?raw=true)
+![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/timing%20diagram.png)
 In the timing diagram, we can see the Hsync pulsing periodically. Each pulse represents the end of a line. The Vsync has a longer pulse that lasts for 2 whole Hsync pulses, which supports the VGA specifications for the vertical parameters. 
