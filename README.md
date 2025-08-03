@@ -70,5 +70,5 @@ The front porch is the delay between the end of the video data of a scanline and
 
 # Results
 ## Timing Diagram
-![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/timing%20diagram.png)
+![Image](https://github.com/muizzkhan0/vhdl-pong/blob/main/readme-images/timing%20diagram.png)  
 In the timing diagram, we can see the Hsync pulsing periodically. Each pulse represents the end of a line. The Vsync has a longer pulse that lasts for 2 whole Hsync pulses, which supports the VGA specifications for the vertical parameters. 
